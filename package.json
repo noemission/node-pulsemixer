@@ -1,6 +1,6 @@
 {
   "name": "pulsemixer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs bindings for pulsemixer",
   "main": "index.js",
   "scripts": {
