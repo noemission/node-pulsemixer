@@ -40,6 +40,7 @@ You can also pass a sink id to control a specific sound card or sound interface.
 |**`mute`**|`-`|`Promise:Void`|Mutes system volume|
 |**`unmute`**|`-`|`Promise:Void`|Unmutes system volume|
 |**`toggleMute`**|`-`|`Promise:Void`|Toggle mute|
+|**`getMute`**|`-`|`Promise:Boolean`|Gets current mute status|
 |**`setVolume`**|`{Number}`|`Promise:Void`|Sets system volume|
 |**`getVolume`**|`-`|`Promise:Number`|Get current system volume|
 |**`changeVolume`**|`{Number}`|`Promise:Void`|Increase or decrease system volume by a number|

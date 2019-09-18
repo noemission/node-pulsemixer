@@ -29,6 +29,12 @@ class Pulsemixer {
     toggleMute() {
         return this._exec('--toggle-mute')
     }
+    getMute() {
+        return this._exec('--get-mute')
+            .then(({ stdout }) => {
+                return !!+stdout.trim()
+            })
+    }
     changeVolume(volume) {
         return this._exec(`--change-volume ${volume}`)
 
